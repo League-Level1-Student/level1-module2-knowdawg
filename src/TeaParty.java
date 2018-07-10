@@ -14,11 +14,31 @@ public class TeaParty {
 		
 		if(isWoman && isKnighted) {
 			
+			return("Hello Lady " + name);
 			
+		} else
+		
+		if (! isWoman && isKnighted) {
+			
+			return("Hello Sir " +name );
+			
+		} else
+		
+		if (isWoman && ! isKnighted) {
+			
+			return("Hello Ms. " + name);
+			
+		} else
+		
+if (! isWoman && ! isKnighted) {
+			
+			return ("Hello Mr. " + name);
+			
+		} else {
+			
+			return("YOU JA FOOL! HAHAHAHAHA");
 			
 		}
-		
-		
 	
 		
     }
